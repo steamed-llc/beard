@@ -17,4 +17,4 @@
 
 # To-do's
 
-- [ ] allow 1 background and 1 calibration source run file upload on https://bolder.streamlit.app
+- [x] allow 1 background and 1 calibration source run file upload on https://bolder.streamlit.app
