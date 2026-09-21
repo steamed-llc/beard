@@ -32,7 +32,7 @@ Micro SD cards instead of USB drives are used to save data from Pi Pico to utili
 
 A search of files named `run{nnn}*` in the SD card is made when the Pi Pico is powered/reset. A new file `run{nnn+1}*` is created to avoid overwriting old data. The program stops when 2,000 events are recorded in the file. Push the reset button to start a new run.
 
-The SD card [adapter] requires 3.3 V power supply and should be connected to pin 16 ~ 20 (GP12 ~ 15).
+The SD card [adapter] requires 3.3 V power supply and should be connected to pin 16 ~ 20 (GP12 ~ 15). MOSI on the adapter should be connected to a TX pin on the Pi, and MISO should be to RX.
 
 [adapter]: https://www.amazon.com/dp/B0989SM146
 [SPI]: https://en.wikipedia.org/wiki/Serial_Peripheral_Interface
