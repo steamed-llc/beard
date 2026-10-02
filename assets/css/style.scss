@@ -47,6 +47,11 @@ img {
   box-shadow: none;
 }
 
+model-viewer {
+    width: 95%;
+    height: 60vh;
+}
+
 @media screen and (max-width: 430px) {
   #logo { height: 20px; }
   #project_tagline { font-size: 14px; }
